@@ -28,3 +28,14 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+
+- story:  color path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fav_color
+  - action: utter_color
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy

@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - fav_color
 
 responses:
   utter_greet:
@@ -18,16 +19,19 @@ responses:
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Apakah ini cukup membantu mu?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Bagus, Pertahankan!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Sampai Jumpa lagi"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Saya bot, dibuat oleh mas Aufar"
+
+  utter_color:
+  - text: "Merah adalah warna kesukaan saya"
 
 session_config:
   session_expiration_time: 60
